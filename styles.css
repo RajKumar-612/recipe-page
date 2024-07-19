@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+  margin-top: 5rem;
+}
+.container {
+  max-width: 800px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
+}
+.container > * {
+  margin-bottom: 1rem;
+}
+.container > :last-child {
+  margin-bottom: 0rem;
+}
+.prep_time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1rem;
+}
+.prep_time h4 {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+.prep_time li {
+  color: hsl(332, 51%, 32%);
+}
+span {
+  color: hsl(30, 10%, 34%);
+}
+.prep_task,
+.instr {
+  font-weight: bold;
+}
+.ingredients ul {
+  list-style-type: square;
+}
+ul,
+ol {
+  padding-left: 0.625rem;
+}
+li {
+  list-style-position: inside;
+  margin-bottom: 0.625rem;
+  color: hsl(14, 45%, 36%);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: hsl(30, 10%, 34%);
+  font-weight: light;
+}
+tr {
+  border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+tr:last-of-type {
+  border-bottom: none;
+}
+td {
+  padding: 1rem 0px 1rem 1rem;
+}
+caption {
+  text-align: left;
+}
+.value {
+  color: hsl(14, 45%, 36%);
+  font-weight: bolder;
+}
+hr {
+  border: 1px solid hsl(30, 54%, 90%);
+}
+img {
+  height: 200px;
+  width: 100%;
+  border-radius: 0.625rem;
+}
+h2 {
+  font-family: "Young Serif";
+  letter-spacing: 0.1rem;
+}
+h3 {
+  font-family: "Young Serif";
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
